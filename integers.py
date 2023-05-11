@@ -6,3 +6,4 @@ def details ():
 details ()
 
 # open the input file
+with open('numbers.txt', 'r') as f:
