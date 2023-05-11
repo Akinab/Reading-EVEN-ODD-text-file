@@ -19,3 +19,5 @@ with open('even.txt', 'w') as f:
     f.write('\n'.join(map(str, even_numbers)))
 
 # write odd numbers to odd.txt
+with open('odd.txt', 'w') as f:
+    f.write('\n'.join(map(str, odd_numbers)))
