@@ -7,3 +7,4 @@ details ()
 
 # open the input file
 with open('numbers.txt', 'r') as f:
+    # read all lines and convert them to integers
