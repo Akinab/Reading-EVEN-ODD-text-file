@@ -15,3 +15,5 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 
 # write even numbers to even.txt
+with open('even.txt', 'w') as f:
+    f.write('\n'.join(map(str, even_numbers)))
