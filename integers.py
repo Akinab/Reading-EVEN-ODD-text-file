@@ -11,3 +11,4 @@ with open('numbers.txt', 'r') as f:
     numbers = list(map(int, f.readlines()))
 
 # filter even and odd numbers
+even_numbers = [num for num in numbers if num % 2 == 0]
