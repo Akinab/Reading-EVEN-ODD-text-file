@@ -13,3 +13,5 @@ with open('numbers.txt', 'r') as f:
 # filter even and odd numbers
 even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
+
+# write even numbers to even.txt
